@@ -1,0 +1,59 @@
+ErrorDocument 404 'Sorry Page Not Found !'
+
+RewriteEngine On
+RewriteRule ^ajax/?$    pages/ajax.php     [L]
+RewriteRule ^login/?$    pages/login.php     [L,QSA]
+RewriteRule ^register/?$    pages/register.php     [L,QSA]
+RewriteRule ^logout/?$    pages/logout.php     [L]
+RewriteRule ^home/?$    pages/home.php     [L]
+RewriteRule ^about/?$    pages/about.php     [L]
+RewriteRule ^dashboard/?$    pages/index.php     [L,QSA]
+RewriteRule ^orders/create-new/?$    pages/create-new-order.php     [L]
+RewriteRule ^messages/?$    pages/messages.php     [L,QSA]
+RewriteRule ^my-orders/?$    pages/my-orders.php     [L,QSA]
+RewriteRule ^invoice/?$    pages/order-invoice.php     [L,QSA]
+RewriteRule ^my-invoice/?$    pages/invoice.php     [L,QSA]
+RewriteRule ^my-account/?$    pages/my-account.php     [L,QSA]
+RewriteRule ^my-account/change-password/?$    pages/my-account-cp.php     [L,QSA]
+RewriteRule ^my-account/security-settings/?$    pages/my-account-ss.php     [L,QSA]
+RewriteRule ^support/new-ticket/?$    pages/new-support-ticket.php     [L,QSA]
+RewriteRule ^support/tickets/?$    pages/support-tickets.php     [L,QSA]
+RewriteRule ^support/tickets/view/([0-9]+)/?$    pages/view-support-ticket.php?id=$1     [L,QSA]
+RewriteRule ^support/announcements/?$    pages/support-announcements.php     [L,QSA]
+
+RewriteRule ^admin/my-invoice/?$    admin/invoice.php     [L,QSA]
+RewriteRule ^admin/login/?$    admin/login.php     [L,QSA]
+RewriteRule ^admin/logout/?$    admin/logout.php     [L,QSA]
+RewriteRule ^admin/home/?$    admin/home.php     [L]
+RewriteRule ^admin/dashboard/?$    admin/index.php     [L,QSA]
+RewriteRule ^admin/search/?$    admin/search.php     [L,QSA]
+RewriteRule ^admin/my-account/?$    admin/my-account.php     [L,QSA]
+RewriteRule ^admin/messages/?$    admin/messages.php     [L,QSA]
+RewriteRule ^admin/orders/?$    admin/orders.php     [L,QSA]
+RewriteRule ^admin/lead/?$    admin/lead.php     [L,QSA]
+RewriteRule ^admin/customer-list/?$    admin/customer-list.php     [L,QSA]
+RewriteRule ^admin/due-payments/?$    admin/due-payments.php     [L,QSA]
+RewriteRule ^admin/packages/?$    admin/packages.php     [L,QSA]
+RewriteRule ^admin/forms/?$    admin/form_submissions.php     [L,QSA]
+RewriteRule ^admin/view-statistics/?$    admin/view-statistics.php     [L,QSA]
+RewriteRule ^admin/support/tickets/?$    admin/support-tickets.php     [L,QSA]
+RewriteRule ^admin/support/tickets/view/([0-9]+)/?$    admin/view-support-ticket.php?id=$1     [L,QSA]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors On
+   php_value max_execution_time 90
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value post_max_size 8M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value upload_max_filesize 256M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

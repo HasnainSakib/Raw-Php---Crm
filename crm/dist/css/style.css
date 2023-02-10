@@ -1,0 +1,179 @@
+.figure{
+	background-color:#fff;
+}
+.first{
+margin-top:50px;	
+}
+.title{
+	text-align:center;
+}
+.sec{
+	margin-top:50px;
+}
+.addimage img{
+	width:100%;
+	height:200px;
+	margin-bottom:20px;
+}
+.footer{
+padding:20px;
+text-align:left;
+background-color:#ddd;
+width:100%;
+}
+.logoimage{
+	padding:10px 0;
+}
+.logoimage img{
+	width:100%;
+}
+.soc-link{
+	float: right;
+    padding: 10px 0;
+}
+.soc-link li{
+	list-style-type: none;
+    display: inline-block;
+}
+
+.soc-link li a i{
+	background-color: #858889;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid #707475;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 20px;
+}
+.soc-link li a i:hover{
+	background-color: #fff;
+    color: #818587;
+    border: 1px solid #686b6c;
+}
+.page-header{
+	background-color: #fff;
+	
+}
+.menu{
+	background-color: #737873;
+	margin-bottom:20px;
+	text-align:center;
+}
+.menu ul{
+	padding:5px 0;
+	margin:0px;
+}
+.menu ul li{
+	list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+	text-decoration:none;
+	display: block;
+	color: #000000;
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.product{
+	border:1px solid #ddd;
+}
+.product img{
+	width:100%;
+}
+.text{
+	color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  text-align: center;
+}
+.product:hover .overly {
+  opacity: 1;
+}
+
+.product1{
+	position: relative;
+	height: 300px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.product1 img{
+	width:100%;
+	height:300px;
+}
+.overly1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0%;
+	width: 100%;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+.text1{
+	color: white;
+  font-size: 30px;
+  position: absolute;
+  padding:20px;  
+  text-align: center;
+}
+.product1:hover .overly1{
+  height: 30%;
+}
+.product3{
+	position: relative;
+	height: 300px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.product3 img{
+	width:100%;
+	height:300px;
+}
+.overly3{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0%;
+	width: 100%;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+.text3{
+	color: white;
+  font-size: 30px;
+  position: absolute;
+  padding:20px;  
+  text-align: center;
+}
+.product3:hover .overly1{
+  height: 30%;
+}
+
+#copyright-container{
+	padding:20px;
+	text-align:center;
+	background-color:#282828;
+}
+#copyright-container p{
+	color:#fff;
+	font-weight:600;
+	font-size:18px;
+}
+
+
+
+
+
+
+
+
